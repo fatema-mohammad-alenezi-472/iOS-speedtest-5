@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="SzJ-75-vHJ">
             <objects>
-                <viewController id="a2x-8d-nIY" customClass="ViewController" customModule="learningIsFun" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="a2x-8d-nIY" customClass="ViewController" customModule="SpeedTest5" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EiV-8C-WgD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -25,6 +25,7 @@
                                     <color key="titleColor" red="0.91434425119999996" green="0.24562284349999999" blue="0.21347567440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="red" destination="a2x-8d-nIY" eventType="touchUpInside" id="gxy-M5-i51"/>
                                     <action selector="red:" destination="a2x-8d-nIY" eventType="touchUpInside" id="oIn-Eq-6Yr"/>
                                 </connections>
                             </button>
@@ -35,6 +36,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="BLUE"/>
                                 <connections>
+                                    <action selector="blue" destination="a2x-8d-nIY" eventType="touchUpInside" id="bpA-rl-veI"/>
                                     <action selector="blue:" destination="a2x-8d-nIY" eventType="touchUpInside" id="Ons-b4-OeF"/>
                                 </connections>
                             </button>
@@ -59,6 +61,7 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.37865867077464788" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
+                                    <action selector="yellow" destination="a2x-8d-nIY" eventType="touchUpInside" id="tZU-LP-hz9"/>
                                     <action selector="yellow:" destination="a2x-8d-nIY" eventType="touchUpInside" id="m09-mP-AzL"/>
                                 </connections>
                             </button>
@@ -70,6 +73,19 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="4"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="go2-k5-Udf">
+                                <rect key="frame" x="224" y="463" width="109" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.86071214480000002" green="0.98148001269999996" blue="0.8530208776" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="GREEN">
+                                    <color key="titleColor" red="0.1640625" green="1" blue="0.0068088107639999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="green" destination="a2x-8d-nIY" eventType="touchUpInside" id="5zP-ir-VRS"/>
+                                    <action selector="green:" destination="a2x-8d-nIY" eventType="touchUpInside" id="ke4-cq-fJs"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="ocZ-gA-U94"/>
